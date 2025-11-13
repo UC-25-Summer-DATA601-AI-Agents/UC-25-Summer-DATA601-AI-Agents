@@ -60,7 +60,53 @@ During installation, make sure to select:
 
 After installation, restart your computer once to ensure PATH variables are applied.
 
-### 2. Clone the Project
+### 2. Team Setup — Pre-requirements Checklist
+
+**Windows**
+
+1️⃣ Install Miniconda
+
+Choose Just Me
+
+Check Add Miniconda to PATH
+
+Check Register Miniconda as default Python
+
+2️⃣ Restart the computer
+
+3️⃣ Open a normal CMD (not administrator)
+
+4️⃣ Test conda:
+
+conda --version
+
+If not working:
+
+conda init cmd.exe
+
+Restart CMD.
+
+5️⃣ Open VS Code
+
+Set terminal to cmd.exe:
+
+Ctrl + Shift + P → Terminal: Select Default Profile → Command Prompt
+
+**macOS**
+
+1️⃣ Install Miniconda
+2️⃣ Restart Terminal
+3️⃣ Test:
+
+conda --version
+
+If not working:
+
+conda init zsh
+
+Restart terminal.
+
+### 3. Clone the Project
 
 Open a terminal and run:
 
@@ -80,7 +126,7 @@ Keeping the same folder name ensures all team members use the same commands.
 
 Make sure you run the command in the location where the folder exists.
 
-###  3. Create and Activate the Conda Environment
+###  4. Create and Activate the Conda Environment
 Run:
 conda env create -f environment.yml
 conda activate UC-25-Summer-DATA601-AI-Agents
@@ -93,7 +139,7 @@ Python 3.10.x
 
 (Our environment is locked to Python 3.10 for compatibility.)
 
-### 4. VS Code Setup (Very Important)
+### 5. VS Code Setup (Very Important)
 ✔ Set the Default Terminal to Command Prompt (cmd.exe)
 
 In VS Code, press:
