@@ -5,9 +5,6 @@ Welcome to the **UC-25-Summer-DATA601-AI-Agents** project!
 
 This guide explains how every team member should correctly set up the development environment.
 
----
-
-
 ## 📁 Project Structure Overview
 
 Below is the directory structure of the **AI-Agents** project, along with explanations for what each folder is used for.
@@ -34,6 +31,21 @@ LICENSE ← Project license
 
 environment.yml ← Conda environment configuration
 
+## 📦 Project Dependencies Overview
+
+Below is a summary of the libraries included in `environment.yml` and what tasks they support.  
+This helps every team member understand which tools are used for each part of the project.
+
+| Task | Required Libraries | Description |
+|------|--------------------|-------------|
+| Data processing & preprocessing | `pandas`, `numpy` | Load datasets, clean data, numerical operations |
+| Classification models & evaluation | `scikit-learn` | Train/test classical ML models (SVM, RandomForest, metrics, splitting) |
+| Text processing | `nltk`, `spacy` | Tokenization, sentence parsing, text cleaning |
+| Multi-agent system / LLM calls | `langchain`, `openai`, `tiktoken` | Build agent workflows, call LLMs, manage prompt tokens |
+| Sentiment / classifier advanced models | `transformers`, `sentencepiece` | Use HuggingFace models (BERT, RoBERTa, T5), encode text |
+| UI frontend demo | `streamlit` | Build interactive demo UI in the browser |
+| API backend service | `fastapi`, `uvicorn` | Build HTTP API endpoints, run backend server |
+
 ## 🌱 Environment Setup (Required for All Team Members)
 
 ### 1. Install Miniconda
@@ -47,7 +59,6 @@ During installation, make sure to select:
 - ✔ **Register Miniconda3 as my default Python 3**
 
 After installation, restart your computer once to ensure PATH variables are applied.
-
 
 ### 2. Clone the Project
 
@@ -81,7 +92,6 @@ Expected output:
 Python 3.10.x
 
 (Our environment is locked to Python 3.10 for compatibility.)
-
 
 ### 4. VS Code Setup (Very Important)
 ✔ Set the Default Terminal to Command Prompt (cmd.exe)
