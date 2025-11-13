@@ -1,0 +1,22 @@
+name: UC-25-Summer-Data601-Ai-Agents
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - nltk
+  - spacy
+  - pip:
+      - langchain
+      - openai
+      - tiktoken
+      - fastapi
+      - uvicorn
+      - transformers
+      - sentencepiece
+      - streamlit
