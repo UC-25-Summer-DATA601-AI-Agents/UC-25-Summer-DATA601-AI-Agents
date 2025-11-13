@@ -13,32 +13,30 @@ This guide explains how every team member should correctly set up the developmen
 Below is the directory structure of the **AI-Agents** project, along with explanations for what each folder is used for.
 
 AI-Agents/
-│
-├── data/ ← Raw data, cleaned data, datasets used in experiments
-│
-├── src/ ← Core Python source code for the project
-│
-├── notebooks/ ← Jupyter/Colab notebooks for experiments, explorations, demos
-│
-├── models/ ← Saved models, checkpoints, exported weights
-│
-├── config/ ← Configuration files (prompts, model settings, parameters, paths)
-│
-├── tests/ ← Unit tests and validation scripts
-│
-├── .gitignore ← Git ignore rules
-│
-├── README.md ← Project documentation and setup guide
-│
-├── LICENSE ← Project license
-│
-└── environment.yml ← Conda environment configuration
+
+data/ ← Raw data, cleaned data, datasets used in experiments
+
+src/ ← Core Python source code for the project
+
+notebooks/ ← Jupyter/Colab notebooks for experiments, explorations, demos
+
+models/ ← Saved models, checkpoints, exported weights
+
+config/ ← Configuration files (prompts, model settings, parameters, paths)
+
+tests/ ← Unit tests and validation scripts
+
+.gitignore ← Git ignore rules
+
+README.md ← Project documentation and setup guide
+
+LICENSE ← Project license
+
+environment.yml ← Conda environment configuration
 
 ## 🌱 Environment Setup (Required for All Team Members)
 
----
-
-## 1. Install Miniconda
+### 1. Install Miniconda
 
 Download Miniconda from the official website (choose **Windows 64-bit** if on Windows).
 
@@ -51,15 +49,16 @@ During installation, make sure to select:
 After installation, restart your computer once to ensure PATH variables are applied.
 
 
-## 2. Clone the Project
+### 2. Clone the Project
 
 Open a terminal and run:
 
 git clone https://github.com/UC-25-Summer-DATA601-AI-Agents/UC-25-Summer-DATA601-AI-Agents
+
 cd UC-25-Summer-DATA601-AI-Agents
 
 
-##  3. Create and Activate the Conda Environment
+###  3. Create and Activate the Conda Environment
 Run:
 conda env create -f environment.yml
 conda activate UC-25-Summer-DATA601-AI-Agents
@@ -73,7 +72,7 @@ Python 3.10.x
 (Our environment is locked to Python 3.10 for compatibility.)
 
 
-## 4. VS Code Setup (Very Important)
+### 4. VS Code Setup (Very Important)
 ✔ Set the Default Terminal to Command Prompt (cmd.exe)
 
 In VS Code, press:
