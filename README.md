@@ -55,8 +55,19 @@ Open a terminal and run:
 
 git clone https://github.com/UC-25-Summer-DATA601-AI-Agents/UC-25-Summer-DATA601-AI-Agents
 
-cd UC-25-Summer-DATA601-AI-Agents
+📌 IMPORTANT — Do NOT rename the project folder
 
+After cloning, the folder will be created as: UC-25-Summer-DATA601-AI-Agents
+
+⚠️ Do NOT rename this folder.
+
+Keeping the same folder name ensures all team members use the same commands.
+
+📌 Enter the project folder
+
+**Open a terminal (VS Code Terminal or Command Prompt) and run: cd UC-25-Summer-DATA601-AI-Agents**
+
+Make sure you run the command in the location where the folder exists.
 
 ###  3. Create and Activate the Conda Environment
 Run:
